@@ -1,0 +1,111 @@
+.titel1 {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+.titel {
+    font-family: Arial, Helvetica, sans-serif ;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    opacity: 0.6;
+}
+.boven {
+    background-image: url('Manhattan.png');
+    margin: 0px;
+}
+H1 {
+    margin: 0px;
+}
+.lijst1{
+    height: 40px;
+    width: 90px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 27, 0)
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(163, 15, 15);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.98;
+    transition: opacity 0.5s, background-color 0.5s, color 0.5s;
+}
+.lijst1:hover {
+    opacity: 0.5;
+   background-color: rgb(20, 20, 169);
+   color: white; 
+}
+.bar {
+    background-color: rgb(44, 43, 44);
+    margin: 0px;
+    opacity: 0.9;
+}
+.P1l {
+    text-align: center;
+    list-style-position: inside;
+    text-size-adjust: 50px;
+}
+
+.Subj {
+    text-align: center;
+    height: 75 px;
+    width: 160 px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(175, 22, 22, 0.537);
+    transition: 0,5s;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .pres {
+    margin-bottom: 2px;
+    margin-top: 5px;
+  }
